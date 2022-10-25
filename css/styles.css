@@ -16,6 +16,10 @@ body {
 ul {
 	list-style: none;
 }
+img{
+	display: block;
+	max-width: 100%;
+}
 .page-header {
 	display: flex;
 	align-items: center;
@@ -131,11 +135,20 @@ ul {
 	margin-left: var(--card-set-gap);
 	margin-top: var(--card-set-gap);
 	background-color: #ffffff;
+
+	
 }
+
+
 .list {
 	text-decoration: none;
 }
+
+.works-content{
+padding: 20px 24px;
+}
 .element-title {
+	
 	color: var(--title-text-color);
 	font-weight: 700;
 	font-size: 18px;
@@ -143,6 +156,8 @@ ul {
 	letter-spacing: 0.06em;
 }
 .element-text {
+	margin-top: 4px;
+
 	color: var(--primary-text-color);
 	font-size: 16px;
 	line-height: 1.88;
