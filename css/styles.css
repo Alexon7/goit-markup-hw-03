@@ -16,15 +16,20 @@ body {
 ul {
 	list-style: none;
 }
-img{
+img {
 	display: block;
 	max-width: 100%;
+}
+.section {
+	padding-top: 94px;
+	padding-bottom: 94px;
 }
 .page-header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	margin-left: auto;
+	border: 1px solid #ececec;
 }
 .container {
 	padding-left: 15px;
@@ -135,20 +140,17 @@ img{
 	margin-left: var(--card-set-gap);
 	margin-top: var(--card-set-gap);
 	background-color: #ffffff;
-
-	
 }
-
 
 .list {
 	text-decoration: none;
 }
 
-.works-content{
-padding: 20px 24px;
+.works-content {
+	padding: 20px 24px;
+	border: 1px solid #eeeeee;
 }
 .element-title {
-	
 	color: var(--title-text-color);
 	font-weight: 700;
 	font-size: 18px;
@@ -163,6 +165,9 @@ padding: 20px 24px;
 	line-height: 1.88;
 }
 .logo-footer {
+	display: block;
+	
+
 	color: var(--accent-button-color);
 	font-family: Raleway, sans-serif;
 	font-weight: 700;
@@ -176,17 +181,27 @@ padding: 20px 24px;
 	margin-bottom: 0;
 }
 
+.page-footer{
+	padding-left: 215px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
 .page-footer,
 .top-title {
 	background: #2f303a;
 }
 .offline-address {
+	display: block;
+	margin-top: 20px;
+	
 	font-style: normal;
 	font-size: 14px;
 	line-height: 1.71;
 	color: #ffffff;
 }
 .link-footer {
+	margin-top: 9px;
+
 	font-family: Roboto, sans-serif;
 	letter-spacing: 0.03em;
 	font-size: 14px;
@@ -197,6 +212,8 @@ padding: 20px 24px;
 .link-footer:hover,
 .link-footer:focus {
 	color: var(--accent-color);
+}
+
 }
 .title {
 	margin-bottom: 30px;
