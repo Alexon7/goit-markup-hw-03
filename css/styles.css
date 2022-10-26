@@ -264,6 +264,10 @@ img {
 .benefits-main {
 	display: flex;
 }
+
+.benefits-title{
+	display: none;
+}
 .benefits-main .item + .item {
 	margin-left: 30px;
 }
