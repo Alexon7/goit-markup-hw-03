@@ -56,6 +56,8 @@ img {
 }
 .logo {
 	display: block;
+	padding-top: 24px;
+	padding-bottom: 25px;
 
 	color: #000000;
 	font-family: Raleway, sans-serif;
@@ -199,6 +201,8 @@ img {
 .page-footer,
 .top-title {
 	background: #2f303a;
+	justify-content: center;
+	
 }
 .offline-address {
 	display: block;
@@ -226,6 +230,9 @@ img {
 
 .title {
 	margin-bottom: 30px;
+	width: 600px;
+	
+
 
 	font-weight: 900;
 	font-size: 44px;
@@ -236,6 +243,8 @@ img {
 	color: #ffffff;
 }
 .title-button {
+    padding: 10px 32px;
+
 	font-family: inherit;
 	font-weight: 700;
 	font-size: 16px;
