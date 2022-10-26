@@ -31,6 +31,7 @@ img {
 	display: block;
 	max-width: 100%;
 }
+
 .section {
 	padding-top: 94px;
 	padding-bottom: 94px;
@@ -38,6 +39,7 @@ img {
 .middle {
 	padding-top: 0;
 }
+
 .main-header {
 	border-bottom: 1px solid #ececec;
 }
