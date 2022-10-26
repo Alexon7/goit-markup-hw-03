@@ -202,7 +202,6 @@ img {
 .top-title {
 	background: #2f303a;
 	justify-content: center;
-	
 }
 .offline-address {
 	display: block;
@@ -233,7 +232,6 @@ img {
 	width: 600px;
 	
 
-
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
@@ -243,7 +241,7 @@ img {
 	color: #ffffff;
 }
 .title-button {
-    padding: 10px 32px;
+	padding: 10px 32px;
 
 	font-family: inherit;
 	font-weight: 700;
