@@ -107,7 +107,7 @@ img {
 	margin-left: 50px;
 }
 
-.filter-title{
+.filter-title {
 	display: none;
 }
 .filter {
@@ -217,6 +217,10 @@ img {
 	line-height: 1.71;
 	color: #ffffff;
 }
+
+
+
+
 .link-footer {
 	margin-top: 9px;
 
@@ -235,7 +239,8 @@ img {
 .title {
 	margin-bottom: 30px;
 	width: 600px;
-
+	margin-left: auto;
+	margin-right: auto;
 
 	font-weight: 900;
 	font-size: 44px;
@@ -265,7 +270,7 @@ img {
 	display: flex;
 }
 
-.benefits-title{
+.benefits-title {
 	display: none;
 }
 .benefits-main .item + .item {
