@@ -106,9 +106,14 @@ img {
 .contacts .item + .item {
 	margin-left: 50px;
 }
+
+.filter-title{
+	display: none;
+}
 .filter {
 	display: flex;
 	justify-content: center;
+	margin-bottom: 50px;
 }
 .filter .item + .item {
 	margin-left: 8px;
@@ -230,7 +235,7 @@ img {
 .title {
 	margin-bottom: 30px;
 	width: 600px;
-	
+
 
 	font-weight: 900;
 	font-size: 44px;
