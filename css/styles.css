@@ -48,7 +48,7 @@ img {
 	align-items: center;
 	justify-content: space-between;
 	margin-left: auto;
-	border: 1px solid #ececec;
+	
 }
 .container {
 	padding-left: 15px;
@@ -175,6 +175,7 @@ img {
 .works-content {
 	padding: 20px 24px;
 	border: 1px solid #eeeeee;
+	border-top: none;
 }
 .element-title {
 	color: var(--title-text-color);
